@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(../Images/background.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.navbar{
+    height: 75px;
+    width: 1200px;
+    margin: auto;
+}
+
+.icons{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-family: Arial;
+    float: left;
+    padding-left: 5px;
+    padding-top: 30px;
+}
+
+.menu{
+    width: 700px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 90px;
+    font-size: 15px;
+    margin-top: 32px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    font-size: 15px;
+}
+
+ul li a:hover{
+    color: gold;
+}
+
+.tag{
+    color: white;
+    margin-top: 80px;
+    font-family: Arial;
+    height: 300px;
+}
+
+.tag h2{
+    font-size: 70px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.name{
+    padding-top: 30px;
+    text-align: center;
+    font-family: Arial;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.btn{
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-left: 610px;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn1{
+    background: transparent;
+    font-size: 30px;
+    color: white;
+    border: 1px solid silver;
+    border-radius: 10px;
+    margin-left: 575px;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn:hover{
+    background: gold;
+    color: black;
+    transition: 0.4s ease-in-out;
+
+}
+
+.btn1:hover{
+    background: gold;
+    color: black;
+    transition: 0.4s ease-in-out;
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+}
+
+.abt{
+    font-size: 50px;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 30px 0 0 80px;
+
+}
+
+.sc{
+    font-family: Arial;
+    font-size: 20px;
+    font-style: italic;
+    padding-left: 80px;
+}
+
+.bio{
+    height: 535px;
+    display: flex;
+    
+}
+ 
+.image{
+    height: 535px;
+    width: 40%;
+}
+
+.port{
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+
+.skills{
+    height: 535px;
+    width: 60%;
+}
+
+.text{
+    height: 200px;
+    width: 100%;
+}
+
+.para{
+    font-family: Arial;
+    padding-top: 25px;
+    font-size: 30px;
+    text-decoration: none;
+    font-style: italic;
+} 
+
+.ico{
+    height: 267px;
+    width: 100%;
+    display: flex;
+}
+
+.cir-1{
+    height: 80px;
+    width: 200px;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.cir-1 img{
+   height: 90px;
+}
+
+.cir-1:hover{
+   transform: scale(1.2);
+   transition: 0.4s;
+}
+
+.project{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.project-des{
+    width: 100%;
+    height: 540px;
+    display: flex;
+}
+
+.div-1{
+    width: 33.3%;
+    height: 540px;
+    background-position: center;
+    overflow: hidden;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.card{
+   height: 500px;
+   width: 400px;
+   margin-top: 20px;
+   margin-left: 20px;
+   border-radius: 20px;
+   background-color: black;
+   position: absolute;
+   transform-style: preserve-3d;
+   transition: all 0.4 ease;
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+    transition: 0.5s;
+}
+
+.front{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    backface-visibility: hidden;
+    background: #745959;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 50px;
+    background-image: url(../Images/card-1.jpg);
+    opacity: 70%;
+    background-size: cover;
+}
+
+.front h1{
+    padding-top: 50%;
+    font-size: 50px;
+}
+
+.back{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    backface-visibility: hidden;
+    background: #dc1515;
+    border-radius: 20px;
+    color: black;
+    transform: rotateY(180deg);
+    background-image: url(../Images/cs.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+
+.contact{
+    height: 100vh;
+    width: 100%;
+    background-color: #dc1515;
+}
+
