@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    font-family: Arial;
+}
 
 .main{
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(../Images/background.jpg);
@@ -275,6 +278,42 @@ ul li a:hover{
 .contact{
     height: 100vh;
     width: 100%;
-    background-color: #dc1515;
 }
 
+.contact-sec{
+    height: 80vh;
+    width: 70%;
+    background-color: black;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.con-in{
+    height: 400px;
+    width: 50%;
+    margin: auto;
+    padding-left: 30px;
+    padding-top: 40px;
+}
+
+.con-in input{
+    margin-top: 20px;
+    font-family: Arial;
+    padding: 6px 8px 6px 8px;
+    margin-bottom: 20px;
+    border-radius:5px ;
+    outline: none;
+}
+
+.last-n{
+    margin-left: 80px;
+}
+
+.con-submit{
+    background-color: transparent;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
