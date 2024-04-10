@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200px;
+    color: white;
+}
+
+section {
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)), url(../IMAGES/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    height: 80px;
+}
+
+nav h2 {
+    font-size: 40px;
+    color: white;
+    line-height: 80px;
+    font-size: inline;
+    float: left;
+}
+
+nav ul {
+    float: right;
+    line-height: 80px;
+}
+
+nav ul li {
+    padding: 0px 10px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background-color: black;
+    transition: 0.3s ease-out;
+    border-radius: 15px;
+}
+
+nav ul li .focus {
+    background-color: black;
+    color: white;
+}
+
+.article {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+
+.article h1 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.article p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.article p:hover {
+    transition: 0.3s ease;
+    scale: 1.5;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.btn:hover {
+    background-color: #4399fa;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.container-2 {
+    min-height: 40vh;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0deg);
+    }
+
+    100% {
+        transform: translateX(calc(-250px * 10));
+    }
+}
+
+.container-3 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(../IMAGES/img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-2 h1 {
+    color: black;
+    text-align: center;
+    padding-top: 20PX;
+
+}
+
+.container-2 .logos {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    animation: scroll 15s linear infinite;
+    display: flex;
+    width: calc(250px * 14);
+}
+
+.container-2 .logo {
+    height: 100px;
+    width: 250px;
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(197deg) brightness(0%) contrast(0%);
+}
